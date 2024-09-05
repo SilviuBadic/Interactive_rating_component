@@ -1,0 +1,27 @@
+.dark_background{
+  background-color: hsl(216, 12%, 8%);
+  margin: 0px;
+}
+
+.main_box h1{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 30px;
+  color: white;
+}
+
+.main_box{
+  width: 25%;
+  height: 800px;
+  margin: 0 auto;
+  border: 1px solid red;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50px;
+}
+
+.main_box p{
+  font-size: 35px;
+  padding-left: 35px;
+  letter-spacing: 2px;
+  color: hsl(217, 12%, 63%);
+}

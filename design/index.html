@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../design/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+<div class="dark_background">
+
+  <div id = "main_frame" class="main_box">
+    <div class="first_svg">
+      <img src = "../images/icon-star.svg" alt="star"/>
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+   <div class="rating_space">
+      <div onmouseover="hoveringItems1()" id="button1" class="circle"><span class="numbers">1</div>
+      <div onmouseover="hoveringItems2()" id="button2" class="circle"><span class="numbers">2</span></div>
+      <div onmouseover="hoveringItems3()" id="button3" class="circle"><span class="numbers">3</span></div>
+      <div onmouseover="hoveringItems4()" id="button4" class="circle"><span class="numbers">4</span></div>
+      <div onmouseover="hoveringItems5()" id="button5" class="circle"><span class="numbers">5</span></div>
+   </div>
+
+  <div class="submit_button">
+    <button id="submit_btn" onclick="toggle()";>SUBMIT</button>
+  </div>
+
+  </div>
+</div>
+
+<div id = "main_frame2" class="main_box2">
+  <div class="transaction">
+    <img  src="../images/illustration-thank-you.svg" alt="thanking">
+  </div>
+  <div class="number_selected">
+    You selected <span id="numberX">0</span> out of 5
+  </div>
+  <div class="thanks">
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </div>
+</div>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/SilviuBadic" target="_blank">Silviu</a>.
+</div>
+</div>
+<script src="rate.js"></script>
+</body>
+</html>

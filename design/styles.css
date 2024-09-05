@@ -1,0 +1,561 @@
+body{
+  background-color: hsl(216, 12%, 8%);
+}
+
+.main_box{
+  width: 40%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.main_box2{
+  width: 40%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50px;
+  margin-top: 30px;
+  row-gap: 10px;
+}
+
+.main_box h1{
+  font-size: 24px;
+  padding-left: 40px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+.main_box p{
+  font-size: 16px;
+  padding-left: 40px;
+  letter-spacing: 1px;
+  padding-right: 30px;
+  color: white;
+}
+
+.submit_button{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 40px;
+}
+
+.submit_button button{
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+}
+
+.submit_button button:hover{
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.first_svg{
+  width: 100%;
+  height: 50px;
+}
+
+.first_svg img{
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:hsl(215, 19%, 27%);
+}
+
+.transaction{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.transaction img{
+  width: 100%;
+}
+
+.number_selected{
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  border-radius: 15px;
+  background-color: hsl(213, 18%, 24%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.thanks{
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  color:white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thanks p{
+  font-size: 14px;
+}
+
+#main_frame{
+  display: block;
+}
+
+#main_frame2{
+  display: none;
+}
+
+.attribution{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 14px;
+}
+
+.rating_space{
+  width: 85%;
+  height: 60px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 16px;
+  background-color: hsl(215, 19%, 27%);margin-top: 5px;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+.numbers{
+  position: relative;
+  top:30%;
+}
+
+.circle:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 360px) {
+ 
+  .main_box{
+    width: 90%;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .main_box2{
+    width: 90%;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+
+  .main_box h1{
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  
+  .main_box p{
+    font-size: 12px;
+    padding-left: 30px;
+  }
+  
+  .submit_button button{
+    font-size: 14px;
+  }
+
+  .rating_space{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .circle{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 14px;
+    background-color: hsl(215, 19%, 27%);margin-top: 5px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+  }
+  
+  .circle .numbers{
+    position: relative;
+    top: 9px;
+    left: 0.5px;
+  }
+
+  .attribution{
+    font-size: 8px;
+  }
+
+  .submit_button{
+    margin-top: 20px;
+  }
+
+  .number_selected{
+    font-size: 12px;
+  }
+
+  .thanks p{
+    font-size: 12px;
+  }
+
+  .thanks h2{
+    font-size: 16px;
+  }
+
+  .transaction img{
+    margin-top: -20px;
+  }
+
+  .numbers{
+    position: absolute;
+    top: -10px;
+    right: 12px;
+  }
+}
+
+
+@media only screen and (min-width: 361px) {
+ 
+  .main_box{
+    width: 90%;
+    height: 380px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+  
+  .main_box2{
+    width: 90%;
+    height: 380px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+
+  .main_box h1{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 25px;
+  }
+  
+  .main_box p{
+    font-size: 14px;
+    padding-left: 30px;
+    margin-left: 25px;
+  }
+  
+  .submit_button{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submit_button button{
+    font-size: 16px;
+  }
+
+  .rating_space{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .circle{
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    text-align: center;
+    font-size: 16px;
+    background-color: hsl(215, 19%, 27%);margin-top: 5px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+  }
+  
+  .circle .numbers{
+    position: relative;
+    top: 10px;
+    left: 0.5px;
+  }
+
+  .attribution{
+    font-size: 10px;
+  }
+
+  .submit_button{
+    margin-top: 20px;
+  }
+
+  .number_selected{
+    font-size: 14px;
+  }
+
+  .thanks p{
+    font-size: 14px;
+  }
+
+  .thanks h2{
+    font-size: 20px;
+  }
+
+  .transaction img{
+    margin-top: 20px;
+  }
+
+  .numbers{
+    position: absolute;
+    top: -10px;
+    right: 12px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 620px) {
+ 
+  .main_box{
+    width: 70%;
+    height: 380px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+  
+  .main_box2{
+    width: 70%;
+    height: 380px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+
+  .main_box h1{
+    font-size: 22px;
+    padding-left: 50px;
+    margin-left: 25px;
+  }
+  
+  .main_box p{
+    font-size: 16px;
+    padding-left: 50px;
+    margin-left: 25px;
+  }
+  
+  .submit_button{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first_svg{
+    margin-left: 22px;
+  }
+  
+  .submit_button button{
+    font-size: 18px;
+  }
+
+  .rating_space{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .circle{
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 18px;
+    background-color: hsl(215, 19%, 27%);margin-top: 5px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+  }
+  
+  .circle .numbers{
+    position: relative;
+    top: 11px;
+    left: 0.5px;
+  }
+
+  .attribution{
+    font-size: 14px;
+  }
+
+  .submit_button{
+    margin-top: 20px;
+  }
+
+  .number_selected{
+    font-size: 16px;
+  }
+
+  .thanks p{
+    font-size: 16px;
+  }
+
+  .thanks h2{
+    font-size: 22px;
+  }
+
+  .transaction img{
+    margin-top: 5px;
+  }
+
+  .numbers{
+    position: absolute;
+    top: -10px;
+    right: 12px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+ 
+  .main_box{
+    width: 50%;
+    height: 420px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+  
+  .first_svg{
+    margin-left: 22px;
+  }
+
+  .main_box2{
+    width: 60%;
+    height: 420px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+
+  .main_box h1{
+    font-size: 24px;
+    padding-left: 50px;
+    margin-left: 25px;
+  }
+  
+  .main_box p{
+    font-size: 18px;
+    padding-left: 50px;
+    margin-left: 25px;
+  }
+  
+  .submit_button{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submit_button button{
+    font-size: 18px;
+  }
+
+  .rating_space{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .circle{
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    text-align: center;
+    font-size: 18px;
+    background-color: hsl(215, 19%, 27%);margin-top: 5px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+  }
+  
+  .circle .numbers{
+    position: relative;
+    top: 15px;
+    left: 0.5px;
+  }
+
+  .attribution{
+    font-size: 16px;
+  }
+
+  .submit_button{
+    margin-top: 35px;
+  }
+
+  .number_selected{
+    font-size: 16px;
+  }
+
+  .thanks{
+    width: 50%;
+  }
+  .thanks p{
+    font-size: 18px;
+  }
+
+  .thanks h2{
+    font-size: 24px;
+  }
+
+  .transaction img{
+    margin-top: 5px;
+  }
+
+  .numbers{
+    position: absolute;
+    top: -10px;
+    right: 12px;
+  }
+}
