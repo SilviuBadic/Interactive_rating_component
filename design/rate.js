@@ -77,7 +77,7 @@ button1.onclick = function(){
     button1.style.color = "hsl(0, 0%, 100%)";
   }
 
-submit_button.onclick = () => {
+const submitting = submitBtn.onclick = () => {
   numberX.innerHTML = numberX;
 }
 
